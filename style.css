@@ -1,0 +1,143 @@
+*{
+ font-family:Georgia, serif; 
+}
+body{
+  background-color:#03001F;
+}
+.imglogo{
+width: 210px;
+margin-top:10px;
+}
+.navbar{
+ background-color:#050040;
+ margin-left:8px;
+ z-index: 2;
+}
+#navbar{
+width:80%;
+min-width:600px;
+height:180px;
+display: flex;
+justify-content:space-around;
+align-items:center;
+margin:auto;
+margin-top:-160px;
+margin-right:-15px;
+}
+.a{
+  position:relative;
+  text-align:none;
+  font-size:50px;
+  text-transform:capitalize;
+  color:#A0A0A0;
+  text-decoration:none;
+  transition:0.3s;
+  padding:0 10px;
+}
+.a:before{
+  content:'';
+  width:0;
+  left:0;
+  height:10px;
+  position:absolute;
+  background-color:#34306E;
+  bottom:-7px;
+  transition:0.3s;
+}
+.a:hover{
+  color:#fff;
+}
+.a:hover:before{
+  width:100%;
+}
+#IC{
+  background-color: #2A2764;
+  margin-left:8px;
+  height: 500px;
+}
+.hw{
+  color:#5667FF;
+  font-size: 80px;
+  margin-left: 70px;
+  margin-top: -30px;
+  font-size: bold;
+}
+.wt{
+  color: #838FFF;
+  font-size: 80px;
+  margin-left: 250px;
+  margin-top: 20px;
+  font-size: bold;
+}
+#pi{
+  width: 850px;
+  height: 275px;
+  font-size: 60px;
+  color: #fff;
+  margin-left: 45px;
+  background-color: #285B91;
+  border: 15px solid #064990;
+  padding: 5px;
+}
+#sm{
+  width: 300px;
+  border: 10px solid #064990;
+  margin-left: 80px;
+  margin-bottom: 400px;
+}
+#sp{
+  width: 330px;
+  border: 10px solid #064990;
+ 
+}
+.smp{
+  color: #838FFF;
+  font-size: 60px;
+  margin-left: 160px;
+  margin-top: -390px;
+}
+.spp{
+  color: #838FFF;
+  font-size: 60px;
+  margin-left: 63px;
+  margin-top: 5px;
+}
+.divmeme{
+  (background-color:red;)
+  width: 450px;
+  height: 500px;
+}
+#divmap{
+  (background-color:red;)
+  width: 450px;
+  height: 500px;
+  margin-left: 540px;
+  margin-top: -500px;
+}
+#yout{
+  width: 200px;
+  margin-left: 125px;
+  margin-top: -70px;
+}
+#tik{
+ width: 200px; 
+ margin-left: 325px;
+ margin-top: -70px;
+}
+.fty{
+  background-color: #003D6B;
+  border-radius: 10px;
+  height: 250px;
+  margin-top: 50px;
+}
+.ut{
+  padding: 15px;
+  font-size: 50px;
+  color: #5667FF;
+}
+.uy{
+  padding: 15px;
+  font-size: 50px;
+  margin-top: 80px;
+  color: #5667FF;
+}
